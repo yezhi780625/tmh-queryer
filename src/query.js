@@ -36,7 +36,7 @@ async function findSpace(date, noon) {
 
 async function main() {
   const start = new Date();
-  const end = addDays(new Date(), 28);
+  const end = addDays(new Date(), 30);
   const dates = eachDayOfInterval({ start, end })
     .filter((date) => date.getDay() > 0)
     .reduce((result, date) => {
