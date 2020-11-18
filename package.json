@@ -15,5 +15,8 @@
     "cors": "^2.8.5",
     "date-fns": "^2.14.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.2"
   }
 }
